@@ -1,5 +1,6 @@
 import tensorflow as tf
-import tensorflow.contrib.slim as slim
+import tf_slim as slim
+from tensorflow_core.python.ops.rnn_cell_impl import LSTMStateTuple
 
 
 class ConvRNNCell(object):

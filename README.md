@@ -1,6 +1,11 @@
 # Scale-recurrent Network for Deep Image Deblurring
 by [Xin Tao](http://www.xtao.website), Hongyun Gao, [Xiaoyong Shen](http://xiaoyongshen.me/), [Jue Wang](http://juew.org), [Jiaya Jia](http://www.cse.cuhk.edu.hk/leojia/). ([pdf](http://www.xtao.website/projects/srndeblur/srndeblur_cvpr18.pdf))
 
+### Python3 Support
+- Python 3.8
+- requirements.txt
+
+
 ### Our results on real data
 <img src="./imgs/teaser.jpg" width="100%" alt="Real Photo">
 
@@ -9,13 +14,6 @@ by [Xin Tao](http://www.xtao.website), Hongyun Gao, [Xiaoyong Shen](http://xiaoy
 
 ### More cases on real photos from previous papers:
 <img src="./imgs/comp_real.jpg" width="100%" alt="More Cases">
-
-## Prerequisites
-- Python2.7
-- Scipy
-- Scikit-image
-- numpy
-- Tensorflow 1.4 with NVIDIA GPU or CPU (cpu testing is very slow)
 
 ## Installation
 Clone this project to your machine. 
