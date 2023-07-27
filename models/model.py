@@ -276,7 +276,7 @@ class DEBLUR(object):
         self.load(sess, self.train_dir, step=523000)
 
         for imgName in imgsName:
-            blur = scipy.misc.imread(os.path.join(input_path, imgName))
+            blur = scipy.misc.imread(os.path.join(input_path, imgName), mode="RGB")[..., :3]
             h, w, c = blur.shape
             # make sure the width is larger than the height
             rot = False
